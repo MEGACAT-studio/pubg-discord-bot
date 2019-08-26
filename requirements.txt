@@ -1,0 +1,4 @@
+# Discord API wrapper
+discord.py
+# PUBG API wrapper
+pubg-python
