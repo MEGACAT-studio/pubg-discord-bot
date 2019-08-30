@@ -5,7 +5,7 @@ if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
     brew install ffmpeg
     brew install opus
     brew install libffi
-    brew install libsodium  
+    brew install libsodium
 else
     sudo apt-get install build-essential unzip -y
     sudo apt-get install software-properties-common -y
