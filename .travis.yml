@@ -20,5 +20,5 @@ install:
 
 script:
   - if [ "$TYPE" = "docker" ]; then docker build -t pubg-discord-bot .; docker images -a; fi;
-  - if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TYPE" == "docker" ]; then docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASS"; docker tag pubg-discord-bot megacat-studio/pubg-discord-bot:$TRAVIS_BRANCH; docker push megacat-studio/pubg-discord-bot; fi;
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TYPE" == "docker" ]; then rm /home/.docker/config.json; docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASS"; docker tag pubg-discord-bot megacat-studio/pubg-discord-bot:$TRAVIS_BRANCH; docker push megacat-studio/pubg-discord-bot; fi;
   - if [ "$TYPE" = "build" ]; then python -m compileall ./pubg-discord-bot; fi;
