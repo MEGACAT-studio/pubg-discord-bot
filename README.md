@@ -1,4 +1,4 @@
-<p align="center"><img width="250" src="./images/logo.png" alt="PUBG Bot Logo"></p>
+<p align="center"><img width="250" src="./image/logo.png" alt="PUBG Bot Logo"></p>
 
 <p align="center">
   <img src="https://travis-ci.org/MEGACAT-studio/pubg-discord-bot.svg?branch=master" alt="Travis Build Status"></a>
