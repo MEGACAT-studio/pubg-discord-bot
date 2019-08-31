@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-MAINTAINER https://github.com/megacat-studio/pubg-discord-bot
+LABEL megacat-studio, https://github.com/megacat-studio/pubg-discord-bot
 
 # Add project source
 WORKDIR /usr/src/pubg-discord-bot
