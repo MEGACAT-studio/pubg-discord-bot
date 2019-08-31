@@ -1,15 +1,24 @@
+sudo: required
 language: python
-python:
-  - "3.4"
-  - "3.5"
-  - "3.6" # Current detault Python on Travis CI
-  - "3.7"
-  - "3.7-dev" # 3.7 development branch
-  - "3.8-dev" # 3.8 development branch
-  - "nightly" # Nightly build
-# Command to install dependencies
+python: "3.7-dev" # 3.7 development branch
+
+matrix:
+  include:
+    - env: TYPE=docker
+      sudo: required
+    - env: TYPE=build
+      os: linux
+      dist: trusty
+      sudo: required
+
+services:
+  - docker
+
 install:
-  - pip install -r requirements.txt
-# Command to run tests
+  - if [ "$TYPE" = "build" ]; then ./.travis/install.sh; fi;
+  - pip install -U -r requirements.txt
+
 script:
-  - pytest ./tests/
+  - if [ "$TYPE" = "docker" ]; then docker build -t pubg-discord-bot .; docker images -a; fi;
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TYPE" == "docker" ]; then docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASS"; docker tag pubg-discord-bot megacatstudio/pubg-discord-bot:$TRAVIS_BRANCH; docker push megacatstudio/pubg-discord-bot; fi;
+  - if [ "$TYPE" = "build" ]; then python -m compileall ./pubg-discord-bot; fi;
