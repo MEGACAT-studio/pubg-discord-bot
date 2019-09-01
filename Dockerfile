@@ -37,4 +37,4 @@ VOLUME /usr/src/pubg-discord-bot/config
 
 ENV APP_ENV=docker
 
-ENTRYPOINT ["python3", "pubg-discord-bot/bot.py"]
+ENTRYPOINT ["python3", "dockerentry.py"]
