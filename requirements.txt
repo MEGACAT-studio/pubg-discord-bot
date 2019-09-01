@@ -1,3 +1,6 @@
+[requires]
+python_version = "3.5"
+
 # Discord API wrapper
 discord.py
 # PUBG API wrapper
