@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM python:3.6
 
 LABEL megacat-studio, https://github.com/megacat-studio/pubg-discord-bot
 
