@@ -12,7 +12,7 @@ RUN apk update \
     ca-certificates \
     ffmpeg \
     opus \
-    python3 \
+    python3.5 \
     libsodium-dev \
     \
     # Install build dependencies
@@ -22,8 +22,9 @@ RUN apk update \
     libffi-dev \
     make \
     musl-dev \
-    python3-dev \
+    python3.5-dev \
     \
+
     # Install pip dependencies
     && pip3 install --no-cache-dir -r requirements.txt \
     && pip3 install --upgrade --force-reinstall --version websockets==4.0.1 \
@@ -36,4 +37,4 @@ VOLUME /usr/src/pubg-discord-bot/config
 
 ENV APP_ENV=docker
 
-ENTRYPOINT ["python3", "pubg-discord-bot/bot.py"]
+ENTRYPOINT ["python3", "dockerentry.py"]
