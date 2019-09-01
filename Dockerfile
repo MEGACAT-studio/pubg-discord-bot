@@ -1,4 +1,5 @@
 FROM alpine:edge
+FROM python:3.6.3
 
 LABEL megacat-studio, https://github.com/megacat-studio/pubg-discord-bot
 
@@ -12,7 +13,7 @@ RUN apk update \
     ca-certificates \
     ffmpeg \
     opus \
-    python3.5 \
+    python \
     libsodium-dev \
     \
     # Install build dependencies
@@ -22,7 +23,7 @@ RUN apk update \
     libffi-dev \
     make \
     musl-dev \
-    python3.5-dev \
+    python-dev \
     \
 
     # Install pip dependencies
