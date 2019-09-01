@@ -1,7 +1,12 @@
 import discord  # Discord API wrapper
 import pubg_python  # PUBG API weapper
+import os
 
 import json
+
+os.system("ls -alt")
+os.system("cd ..")
+os.system("ls -alt")
 
 # Load secrets from config/secrets.json
 secrets = json.loads(open('../config/secrets.json', 'r').read())
