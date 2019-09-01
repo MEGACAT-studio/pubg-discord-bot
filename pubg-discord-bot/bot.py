@@ -4,7 +4,7 @@ import pubg_python  # PUBG API weapper
 import json
 
 # Load secrets from config/secrets.json
-secrets = json.loads(open('configs/secrets.json', 'r').read())
+secrets = json.loads(open('config/secrets.json', 'r').read())
 discordBotToken = secrets['discord-bot-token']
 pubgApiKey = secrets['pubg-api-key']
 
