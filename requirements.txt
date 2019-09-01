@@ -2,3 +2,5 @@
 discord.py
 # PUBG API wrapper
 pubg-python
+pip
+pynacl==1.2.1
