@@ -5,9 +5,9 @@ import os
 import json
 
 os.system("ls -alt")
+os.system("pwd")
 os.system("cd ..")
 os.system("ls -alt")
-
 # Load secrets from config/secrets.json
 #secrets = json.loads(open('/usr/src/pubg-discord-bot/config', 'r').read())
 #discordBotToken = secrets['discord-bot-token']
