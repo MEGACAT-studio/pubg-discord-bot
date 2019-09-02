@@ -5,6 +5,7 @@ import os
 import json
 
 os.system("ls -alt")
+os.system("ls -alt ./config")
 os.system("pwd")
 os.system("cd ..")
 os.system("ls -alt")
