@@ -9,9 +9,9 @@ os.system("pwd")
 os.system("cd ..")
 os.system("ls -alt")
 # Load secrets from config/secrets.json
-#secrets = json.loads(open('/usr/src/pubg-discord-bot/config', 'r').read())
-#discordBotToken = secrets['discord-bot-token']
-#pubgApiKey = secrets['pubg-api-key']
+secrets = json.loads(open('/usr/src/pubg-discord-bot/config', 'r').read())
+discordBotToken = secrets['discord-bot-token']
+pubgApiKey = secrets['pubg-api-key']
 
 client = discord.Client()
 
