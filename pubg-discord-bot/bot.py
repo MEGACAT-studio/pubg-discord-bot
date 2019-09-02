@@ -9,9 +9,9 @@ os.system("cd ..")
 os.system("ls -alt")
 
 # Load secrets from config/secrets.json
-secrets = json.loads(open('../config/secrets.json', 'r').read())
-discordBotToken = secrets['discord-bot-token']
-pubgApiKey = secrets['pubg-api-key']
+#secrets = json.loads(open('/usr/src/pubg-discord-bot/config', 'r').read())
+#discordBotToken = secrets['discord-bot-token']
+#pubgApiKey = secrets['pubg-api-key']
 
 client = discord.Client()
 
@@ -35,4 +35,4 @@ async def on_message(message):
     if message.content.startswith('!stats'):
         await message.channel.send('Information about my stats')
 
-client.run(discordBotToken)
+# client.run(discordBotToken)
