@@ -1,10 +1,17 @@
 import discord  # Discord API wrapper
 import pubg_python  # PUBG API weapper
+import os
 
 import json
 
+os.system("ls -alt")
+os.system("ls -alt ./config")
+os.system("pwd")
+os.system("cd ..")
+os.system("ls -alt")
 # Load secrets from config/secrets.json
-secrets = json.loads(open('config/secrets.json', 'r').read())
+secrets = json.loads(
+    open('./config/secrets.json', 'r').read())
 discordBotToken = secrets['discord-bot-token']
 pubgApiKey = secrets['pubg-api-key']
 
@@ -30,4 +37,4 @@ async def on_message(message):
     if message.content.startswith('!stats'):
         await message.channel.send('Information about my stats')
 
-client.run(discordBotToken)
+# client.run(discordBotToken)
