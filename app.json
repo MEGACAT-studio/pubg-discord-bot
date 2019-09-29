@@ -9,5 +9,6 @@
   "formation": {},
   "name": "pubg-discord-bot",
   "scripts": {},
-  "stack": "heroku-18"
+  "stack": "heroku-18",
+  "success_url": "/welcome"
 }
