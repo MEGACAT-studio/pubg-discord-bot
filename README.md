@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="https://travis-ci.org/MEGACAT-studio/pubg-discord-bot.svg?branch=master" alt="Travis Build Status"></a>
+  [![Gitter](https://badges.gitter.im/megacat-studio/pubg-discord-bot.svg)](https://gitter.im/megacat-studio/pubg-discord-bot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
 </p>
 
 <h2 align="center">PUBG Discord Bot</h2>
