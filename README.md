@@ -5,6 +5,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/megacat-studio/pubg-discord-bot.svg)](https://github.com/megacat-studio/pubg-discord-bot/network)
 [![npm version](https://img.shields.io/badge/node-v6.11.3-blue.svg)](https://www.npmjs.com/)
 [![Node version](https://img.shields.io/badge/node-v11.5.0-blue.svg)](https://nodejs.org/en/)
+[![Typescript](https://img.shields.io/badge/typescript-v3.6.3-blue.svg)](https://www.npmjs.com/package/typescript)
 [![Discord](https://discordapp.com/api/guilds/627928755452772361/widget.png?style=shield)](https://discord.gg/cHtMxn)
 [![Bugs](https://img.shields.io/github/issues/megacat-studio/pubg-discord-bot/bug.svg)](https://github.com/megacat-studio/pubg-discord-bot/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
 
