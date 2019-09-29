@@ -1,0 +1,50 @@
+{
+  "name": "pubg-discord-bot",
+  "version": "1.0.0",
+  "description": "A discord bot to view stats and overview from PUBG",
+  "main": "index.js",
+  "engines": {
+    "node": "8.x",
+    "npm": "*"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/tsc",
+    "start": "node dist/index.js",
+    "watch": "tsc -p tsconfig.json -w",
+    "test": "mocha -r ts-node/register \"tests/**/*.spec.ts\"",
+    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test",
+    "clean": "rm -rf dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megacat-studio/pubg-discord-bot.git"
+  },
+  "keywords": [
+    "mocha",
+    "typescript",
+    "heroku",
+    "discord.js"
+  ],
+  "author": "megacat-studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megacat-studio/pubg-discord-bot/issues"
+  },
+  "homepage": "https://github.com/megacat-studio/pubg-discord-bot#readme",
+  "dependencies": {
+    "@types/node": "^12.7.8",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.1.0",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.3",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-mockito": "^2.5.0",
+    "ts-node": "^8.4.1"
+  }
+}
