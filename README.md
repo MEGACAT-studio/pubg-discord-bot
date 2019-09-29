@@ -10,7 +10,8 @@
 [![Bugs](https://img.shields.io/github/issues/megacat-studio/pubg-discord-bot/bug.svg)](https://github.com/megacat-studio/pubg-discord-bot/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
 
 ## The Repository
- - TODO: write the purpose of the repository. (A discord pubg bot to retrieve player, match, leaderboard and seasonal stats.
+
+- TODO: write the purpose of the repository. (A discord pubg bot to retrieve player, match, leaderboard and seasonal stats.
 
 <img width="250" src="https://i.imgur.com/mlVhzVq.png" alt="PUBG Bot Logo">
 
@@ -23,9 +24,11 @@ pip install -r requirements.txt
 ```
 
 ### Add your secrets
+
 Rename `example_secret.json` to `secrets.json` and add your secret to the file.
 
 ### Run bot
+
 ```bash
 python bot.py
 ```
