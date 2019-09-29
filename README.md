@@ -1,3 +1,5 @@
+<img width="250" src="https://i.imgur.com/mlVhzVq.png" alt="PUBG Bot Logo">
+
 # PUBG Discord Bot
 
 [![Build Status](https://travis-ci.org/MEGACAT-studio/pubg-discord-bot.svg?branch=master)](https://travis-ci.org/megacat-studio/pubg-discord-bot)
@@ -12,8 +14,6 @@
 ## The Repository
 
 - TODO: write the purpose of the repository. (A discord pubg bot to retrieve player, match, leaderboard and seasonal stats.
-
-<img width="250" src="https://i.imgur.com/mlVhzVq.png" alt="PUBG Bot Logo">
 
 A discord bot to view stats and overview from PUBG
 
