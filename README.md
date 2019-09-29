@@ -2,15 +2,15 @@
 
 <p align="center">
   <img src="https://travis-ci.org/MEGACAT-studio/pubg-discord-bot.svg?branch=master" alt="Travis Build Status"></a>
-  [![Gitter](https://badges.gitter.im/megacat-studio/pubg-discord-bot.svg)](https://gitter.im/megacat-studio/pubg-discord-bot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
+  [![Join the chat at https://gitter.im/megacat-studio/pubg-discord-bot](https://badges.gitter.im/megacat-studio/pubg-discord-bot.svg)](https://gitter.im/megacat-studio/pubg-discord-bot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 </p>
+
+
 
 <h2 align="center">PUBG Discord Bot</h2>
 <p align="center">A discord bot to view stats and overview from PUBG</p>
 
 ### Install the dependencies
-
-[![Join the chat at https://gitter.im/megacat-studio/pubg-discord-bot](https://badges.gitter.im/megacat-studio/pubg-discord-bot.svg)](https://gitter.im/megacat-studio/pubg-discord-bot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ```bash
 pip install -r requirements.txt
