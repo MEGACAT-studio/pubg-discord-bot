@@ -1,9 +1,8 @@
 <p align="center"><img width="250" src="https://i.imgur.com/mlVhzVq.png" alt="PUBG Bot Logo"></p>
 
-<p align="center">
-  <img src="https://travis-ci.org/MEGACAT-studio/pubg-discord-bot.svg?branch=master" alt="Travis Build Status"></a>
-</p>
-
+[![Build Status](https://travis-ci.org/MEGACAT-studio/pubg-discord-bot.svg?branch=master)](https://travis-ci.org/MEGACAT-studio/pubg-discord-bot.svg?branch=master)
+[![Feature Requests](https://img.shields.io/github/issues/Microsoft/vscode/feature-request.svg)](https://github.com/megacat-studio/pubg-discord-bot/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
+[![Bugs](https://img.shields.io/github/issues/Microsoft/vscode/bug.svg)](https://github.com/megacat-studio/pubg-discord-bot/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
 [![Gitter](https://badges.gitter.im/megacat-studio/pubg-discord-bot.svg)](https://gitter.im/megacat-studio/pubg-discord-bot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
 
 <h2 align="center">PUBG Discord Bot</h2>
