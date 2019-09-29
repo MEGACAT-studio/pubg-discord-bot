@@ -1,7 +1,7 @@
 {
-  "name": "discord.js-heroku",
+  "name": "pubg-discord-bot",
   "version": "1.0.0",
-  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
+  "description": "A discord bot to view stats and overview from PUBG",
   "main": "index.js",
   "engines": {
     "node": "8.x",
@@ -13,18 +13,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/synicalsyntax/discord.js-heroku.git"
+    "url": "git+https://github.com/megacat-studio/pubg-discord-bot.git"
   },
   "keywords": [
     "heroku",
     "discord.js"
   ],
-  "author": "synicalsyntax",
+  "author": "megacat-studio",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
+    "url": "https://github.com/megacat-studio/pubg-discord-bot/issues"
   },
-  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
+  "homepage": "https://github.com/megacat-studio/pubg-discord-bot#readme",
   "dependencies": {
     "discord.js": "^11.5.1"
   }
