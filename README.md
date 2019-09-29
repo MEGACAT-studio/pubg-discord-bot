@@ -1,4 +1,4 @@
-<h1 align="center">PUBG Discord Bot</h1>
+<h1>PUBG Discord Bot</h1>
 
 [![Build Status](https://travis-ci.org/MEGACAT-studio/pubg-discord-bot.svg?branch=master)](https://travis-ci.org/MEGACAT-studio/pubg-discord-bot.svg?branch=master)
 [![Feature Requests](https://img.shields.io/github/issues/megacat-studio/pubg-discord-bot/feature-request.svg)](https://github.com/megacat-studio/pubg-discord-bot/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
