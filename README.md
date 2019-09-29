@@ -8,6 +8,9 @@
 <p align="center">A discord bot to view stats and overview from PUBG</p>
 
 ### Install the dependencies
+
+[![Join the chat at https://gitter.im/megacat-studio/pubg-discord-bot](https://badges.gitter.im/megacat-studio/pubg-discord-bot.svg)](https://gitter.im/megacat-studio/pubg-discord-bot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ```bash
 pip install -r requirements.txt
 ```
