@@ -15,6 +15,8 @@
 
 - TODO: write the purpose of the repository. (A discord pubg bot to retrieve player, match, leaderboard and seasonal stats.
 
+<img width="250" src="https://i.imgur.com/mlVhzVq.png" alt="PUBG Bot Logo">
+
 A discord bot to view stats and overview from PUBG
 
 ### Install the dependencies
