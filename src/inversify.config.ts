@@ -12,8 +12,12 @@ container
   .bind<Bot>(TYPES.Bot)
   .to(Bot)
   .inSingletonScope();
-container.bind<Client>(TYPES.Client).toConstantValue(new Client());
-container.bind<string>(TYPES.Token).toConstantValue(process.env.TOKEN);
+container
+  .bind<Client>(TYPES.Client)
+  .toConstantValue(new Client());
+container
+  .bind<string>(TYPES.Token)
+  .toConstantValue(process.env.TOKEN);
 container
   .bind<MessageResponder>(TYPES.MessageResponder)
   .to(MessageResponder)
