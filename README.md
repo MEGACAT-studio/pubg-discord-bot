@@ -17,7 +17,7 @@
 
 A discord bot to view stats and overview from PUBG
 
-### Install the dependencies
+## Install the dependencies
 
 TODO: Write the necessary dependencies to run and test.
 
@@ -25,6 +25,6 @@ TODO: Write the necessary dependencies to run and test.
 
 TODO: Write down how to include secrets and environmental variables.
 
-### Run bot
+## Run bot
 
 TODO: Write what is needed to run the bot.
